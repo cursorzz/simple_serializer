@@ -1,0 +1,19 @@
+AllCops:
+  TargetRubyVersion: 2.4
+
+Style/StringLiterals:
+  EnforcedStyle: double_quotes
+  Exclude:
+    - "**/*_spec.rb"
+
+# We might want to make this work on an old Ruby sometime.
+Style/SafeNavigation:
+  Enabled: false
+
+Metrics/BlockLength:
+  Exclude:
+    - "**/*_spec.rb"
+
+Layout/EmptyLines:
+  Exclude:
+    - "**/*_spec.rb"
